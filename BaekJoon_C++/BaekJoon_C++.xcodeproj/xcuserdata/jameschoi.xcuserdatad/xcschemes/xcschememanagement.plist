@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>N10989.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>N1316.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>N1941.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>N2292.xcscheme_^#shared#^_</key>
 		<dict>

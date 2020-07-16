@@ -29,8 +29,6 @@ char black_first[8][8] =
     'B', 'W', 'B', 'W', 'B', 'W', 'B', 'W',
     'W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'};
 
-
-
 void getChess(int N, int M){
     int minimum =125;
     int white_cnt=0, black_cnt=0;
@@ -54,7 +52,6 @@ void getChess(int N, int M){
     cout << minimum << "\n";
 }
 
-
 int main() {
     int M, N;
     cin >> N >> M;
@@ -65,7 +62,6 @@ int main() {
         }
     }
     getChess(N, M);
-    
     
 }
 
