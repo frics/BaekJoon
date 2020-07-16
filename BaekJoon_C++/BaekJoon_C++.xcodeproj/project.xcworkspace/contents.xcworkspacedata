@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../N2292">
-   </FileRef>
-   <FileRef
       location = "self:BaekJoon_C++.xcodeproj">
    </FileRef>
 </Workspace>
