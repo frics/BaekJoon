@@ -13,10 +13,9 @@ int prime[246911];
 
 int getPrime(int N) {
     int cnt=0;
-    for(int i=2;i<=2*N;i++) //M~N까지 숫자 배열에 초기화
+    for(int i=2;i<=2*N;i++) //2~N까지 숫자 배열에 초기화
         prime[i] = i;
-     //2부터 소수를 지움
-    //M부터 지울 경우 2의 배수가 그대로 남아 있으므로 2부터 실시
+    //2부터 소수를 지움
     for(int i=2;i<=2*N;i++) {
         if(prime[i]==0) // 지워진 !소수 넘어감
             continue;
