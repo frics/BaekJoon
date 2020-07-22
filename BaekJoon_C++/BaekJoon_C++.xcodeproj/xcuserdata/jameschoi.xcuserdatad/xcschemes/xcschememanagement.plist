@@ -149,14 +149,14 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
-		<key>ㅜ2447.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>26</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A758DF4524C6CBA000F8A0CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A769416524C03F720009F19E</key>
 		<dict>
 			<key>primary</key>
