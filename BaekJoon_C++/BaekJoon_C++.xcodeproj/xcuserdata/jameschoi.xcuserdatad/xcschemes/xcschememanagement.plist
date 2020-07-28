@@ -98,6 +98,11 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>N15649.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>N1712.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -388,6 +393,11 @@
 			<true/>
 		</dict>
 		<key>A7C5F59724CFB21A0061C5A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7C5F5A224CFC5AC0061C5A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
