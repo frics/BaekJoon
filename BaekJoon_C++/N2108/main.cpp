@@ -26,16 +26,15 @@ bool cmp1(Number &n1, Number &n2){
         return false;
 }
 bool cmp2(Number &n1, Number &n2){
+    
     if(n1.many > n2.many)
+            return true;
+    else if(n1.many == n2.many && n1.val < n2.val)
         return true;
     else
         return false;
 }
-/*
-int ave(int sum, int N){
-    return round(sum/(double)N);
-}
-*/
+
 
 int middle(int N){
     return arr[((N+1)/2)-1].val;
@@ -87,8 +86,6 @@ int main(){
         cin >> arr[i].val;
         sum += arr[i].val;
     }
-   //printf("\n\n\n\n\n");
-
 
     sort(arr, arr+N, cmp1);
     printf("%.0f\n", (double)sum/N);
