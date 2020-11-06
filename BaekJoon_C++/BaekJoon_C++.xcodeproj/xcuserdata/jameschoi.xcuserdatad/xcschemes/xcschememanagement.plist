@@ -105,6 +105,11 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>N14888.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
 		<key>N15649.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -305,6 +310,11 @@
 			<true/>
 		</dict>
 		<key>A769416524C03F720009F19E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7903EAF24D14727006000FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
