@@ -25,8 +25,7 @@ bool isPromising(){//max값이나 min값이 갱신이 되야 해당 노드 방�
 void getMinMax(int N){
     
     for(int i=0; i<N; i++){
-        if(
-    }
+    
 }
 
 int main(int argc, const char * argv[]) {

@@ -1,36 +1,36 @@
-//
-//  main.cpp
-//  N1316
-//
-//  Created by James Choi on 2020/07/09.
-//  Copyright © 2020 James Choi. All rights reserved.
-//
-
 #include <iostream>
-#include <string>
 using namespace std;
 
-int main(){
-    int N, SUM=0;
-    int check;
-    int size;
-    string word;
+#define MAX 64
+
+int main() {
+    
+    //int image[MAX][MAX];
+    char image[MAX];
+    char ans[1000];
+    int N;
+    
     cin >> N;
-    for(int i=0; i<N; i++){
-        check =1;
-        cin >> word;
-        size = word.length();
-        for(int j=0; j< size; j++){
-            if(j!= size-1){
-                if(word.at(j) != word.at(j+1)){
-                    for(int k=j+1; k<word.length(); k++){
-                        if(word.at(j) == word.at(k))
-                            check =0;
-                    }
-                }
-            }
-        }
-        SUM+=check;
+    
+    if( N%2 != 0){
+        cout << "FAIL\n";
+        return 0;
     }
-    printf("%d\n", SUM);
+    
+    for(int i=0; i<N; i++){
+        //for(int j=0; j<N; j++){
+            cin >> image[i];
+        //}
+    }
+    for(int i=0; i<N; i++){
+    cout << image[i];
+    }
+    /*
+    for(int i=0; i<N; i++){
+        cout << "\n";
+        for(int j=0; j<N; j++){
+            cout << image[i][j] <<"  ";
+        }
+    }*/
+    return 0;
 }
