@@ -1,0 +1,10 @@
+
+
+# xcode 설정 파일 무시
+*.plist
+*.pbxproj
+*.xcuserstate
+*.xecscheme
+*.xcsettings
+# 맥 디렉터리 관련 파일 무시
+.DS_Store
