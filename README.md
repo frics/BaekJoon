@@ -2,8 +2,8 @@
 
 ## **[2020 SUMMER]**
 
-BOJ (1002) 터렛
-BOJ (1011) Fly me to the Alpha Centauri  
+BOJ (1002) 터렛 <br>
+BOJ (1011) Fly me to the Alpha Centauri  <br>
 BOJ (1018) 체스판 다시 칠하기 
 BOJ (1085) 직사각형에서 탈출
 BOJ(1152) 단어의 개수 

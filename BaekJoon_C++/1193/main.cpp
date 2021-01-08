@@ -35,4 +35,5 @@ int main(int argc, const char * argv[]) {
     cin >> N;
     
     find(N);
+    cout << '\n';
 }
