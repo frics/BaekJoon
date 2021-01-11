@@ -30,7 +30,6 @@ int main() {
             }
         }
         printf("%lld\n", profit);
-           
     }
     return 0;
 }
